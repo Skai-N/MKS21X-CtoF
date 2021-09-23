@@ -6,6 +6,11 @@ public class CtoFTester
 {
   public static void main(String[] args)
   {
-
+    System.out.println(celsiusToFahrenheit(4));
+  }
+  
+  public static double celsiusToFahrenheit(double C)
+  {
+    return (C * 1.8) + 32;
   }
 }
